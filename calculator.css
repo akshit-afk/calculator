@@ -1,0 +1,68 @@
+.animate__animated.animate__jackInTheBox {
+    --animate-duration: 2s;
+  }
+  .animate__animated.animate__bounceInDown {
+    --animate-duration: 2s;
+  }
+  .animate__animated.animate__fadeInDown {
+    --animate-duration: 1.5s;
+  }
+
+#calculator{
+    height: 28rem;
+    width:22rem;
+    border: 1px solid #e1e6e9;
+    margin: 50px auto;
+    background-color:#e1e6e9;
+
+    border-radius: 2%;
+}
+
+#display-container{
+    height: 25%;
+    width: 90%; 
+    display: flex;
+    flex-direction: row-reverse;
+    overflow-wrap: break-word;
+    background-color:#edf7fa    ;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px 0px lightgray ;
+    margin-left: 5%;
+    font-size: 50px;
+    margin-top: 5%;
+    color : black;
+    font-family: monospace;
+    overflow: hidden;
+}
+
+.button{
+    height: 10%;
+    width: 20%;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    padding: 2px;
+    margin-left: 8px;
+    margin-top: 8px;
+    border-radius: 5px;
+    background-color: #f6f6f6;    
+    text-align: center;
+    font-family: monospace;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.button span{
+    color: black;
+}
+.button:hover{
+    background-color: gray;
+    
+}
+
+#buttons{
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+}
